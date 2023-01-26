@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-24 01:34+0300\n"
+"POT-Creation-Date: 2023-01-24 19:54+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\templates\home.html:1
+#: .\templates\home.html:2
 msgid "My Test to be translated"
 msgstr "Mein Test soll übersetzt werden"
+
+#: .\templates\localizes\index.html:32
+msgid "Hello, my friend!"
+msgstr "Hallo, mein Freund!"
+
+#: .\templates\localizes\index.html:36
+#, python-format
+msgid ""
+"\n"
+"This is translated text: %(variable)s\n"
+msgstr ""
+"\n"
+"Das ist der zu übersetzende Text: %(variable)s\n"
+
+#: localizes/views.py:13
+msgid "This is a variable"
+msgstr "Das ist eine Variable"

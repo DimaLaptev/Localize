@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-24 20:19+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\localizes\views.py:7
+msgid "This is the test"
+msgstr "This is the test"
+
+#: .\localizes\views.py:8
+msgid "This is a variable"
+msgstr "This is a variable"
+
+#: .\templates\home.html:2
+msgid "My Test to be translated"
+msgstr "My Test to be translated"
+
+#: .\templates\localizes\index.html:32
+msgid "Hello, my friend!"
+msgstr "Hello, my friend!"
+
+#: .\templates\localizes\index.html:36
+#, python-format
+msgid ""
+"\n"
+"This is translated text: %(variable)s\n"
+msgstr ""
+"\n"
+"This is translated text: %(variable)s\n"

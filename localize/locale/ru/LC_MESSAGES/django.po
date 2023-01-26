@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-24 01:26+0300\n"
+"POT-Creation-Date: 2023-01-24 19:55+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,6 +20,23 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\templates\home.html:1
+#: .\templates\home.html:2
 msgid "My Test to be translated"
 msgstr "Мой тест должен перевестись"
+
+#: .\templates\localizes\index.html:32
+msgid "Hello, my friend!"
+msgstr "Привет, мой друг!"
+
+#: .\templates\localizes\index.html:36
+#, python-format
+msgid ""
+"\n"
+"This is translated text: %(variable)s\n"
+msgstr ""
+"\n"
+"Это переведённый текст: %(variable)s\n"
+
+#: localizes/views.py:13
+msgid "This is a variable"
+msgstr "Это переменная"

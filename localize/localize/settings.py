@@ -57,7 +57,9 @@ ROOT_URLCONF = 'localize.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates'),
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -110,8 +112,8 @@ LANGUAGE_CODE = 'de'
 
 LANGUAGES = [
     ('en', 'English'),
-    ('ru', 'Russian'),
     ('de', 'German'),
+    ('ru', 'Russian'),
 ]
 
 LANGUAGE_COOKIE_NAME = 'client_language'
@@ -119,7 +121,7 @@ LANGUAGE_COOKIE_NAME = 'client_language'
 LANGUAGE_SESSION_KEY = 'session_language_localizes'
 
 LOCALE_PATHS = (
-os.path.join(os.path.dirname(__file__), 'locale'),
+    os.path.join(BASE_DIR, 'locale'),
 )
 
 TIME_ZONE = 'UTC'
